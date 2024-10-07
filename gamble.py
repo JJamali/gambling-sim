@@ -21,9 +21,9 @@ def simulate():
       most_money = money
       most_loops = loops
 
-  # print("max money: " + str(most_money))
-  # print("loops to get to max: " + str(most_loops))
-  # print("amt of flips: " + str(loops))
+  print("max money: " + str(most_money))
+  print("loops to get to max: " + str(most_loops))
+  print("amt of flips: " + str(loops))
 
   return (most_money, most_loops, loops)
 
