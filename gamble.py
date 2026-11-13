@@ -1,12 +1,9 @@
 import random
 
 def simulate():
-  money = 10367
-  most_money = money
-  most_loops = 0
-  loops = 0
-  initial_bet = 50
-  bet = initial_bet
+  most_money = money = 10367
+  most_loops = loops = 0
+  initial_bet = bet = 50
   
   while money > 0:
     loops += 1
@@ -27,9 +24,7 @@ def simulate():
 
   return (most_money, most_loops, loops)
 
-most_money = 0
-most_loops = 0
-loops = 0
+most_money = most_loops = loops = 0
 runs = 30000
 for i in range(runs):
   sim = simulate()
